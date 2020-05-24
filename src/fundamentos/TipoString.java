@@ -23,6 +23,13 @@ public class TipoString {
         System.out.println("Nome: " + nome + "\nSobrenome: " + sobrenome + "\nIdade: " + idade + "\nSalário: " + salario + "\n");
 
         // %s -> String         %d -> int         %f float/double
-        System.out.printf("O senhor %s %s tem %d anos e ganha R$ %.2f.", nome, sobrenome, idade, salario);
+        System.out.printf("O senhor %s %s tem %d anos e ganha R$ %.2f.\n\n", nome, sobrenome, idade, salario);
+
+        String nomeAluno = "João";
+        String sobrenomeAluno = "Silva";
+        int idadeAluno = 19;
+        double pontuacao = 950.00;
+
+        System.out.printf("O aluno %s %s tem %d anos e teve um total de %.2f pontos na média final.", nomeAluno, sobrenomeAluno, idadeAluno, pontuacao);
     }
 }

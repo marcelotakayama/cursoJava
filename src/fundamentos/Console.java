@@ -1,7 +1,7 @@
 package fundamentos;
 
 import java.util.Scanner;
-
+//teste
 public class Console {
     public static void main(String[] args) {
         System.out.print("Bom");
